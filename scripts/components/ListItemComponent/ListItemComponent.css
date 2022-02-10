@@ -1,0 +1,13 @@
+.list-item-container {
+    display: flex;
+    border-bottom: 1px solid whitesmoke;
+    padding: 1em;
+}
+.list-item-container:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.list-item-container__name {
+    flex:1;
+}

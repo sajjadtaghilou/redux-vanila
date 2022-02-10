@@ -1,0 +1,29 @@
+:host {
+    width:100%;
+    max-width: min(90vw, 300px);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    background-color: white;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding:1em;
+}
+.card:not(:last-child){
+    margin-bottom: 1rem;
+}
+
+.second-list {
+    list-style: none;
+}
+.second-list li {
+    padding: 1rem;
+}
